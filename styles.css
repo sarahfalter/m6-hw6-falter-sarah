@@ -5,11 +5,7 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     font-family: sans-serif;
-    min-height: 100vh;
-    justify-content: center;
 }
 
 header {
@@ -17,6 +13,8 @@ header {
     color: #ffffff;
     text-align: center;
     padding: 5% 0;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -37,7 +35,7 @@ h2 {
     justify-content: space-around;
 }
 
-.box1, .box2, .box3 {
+#box1, #box2, #box3 {
     color:rgb(120, 11, 209);
     font-size: 2rem;
     text-align: center;
@@ -54,14 +52,14 @@ h3 {
     text-align: center;
     margin-top: 25%;
 }
-.box1 {
+#box1 {
     background: yellow;
 }
 
-.box2 {
+#box2 {
     background: turquoise;
 }
 
-.box3 {
+#box3 {
     background: greenyellow;
 }
