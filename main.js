@@ -1,15 +1,4 @@
 
-var background = document.getElementsByClassName("bg-box");
-
-document.background.addEventListener("mouseenter", function () {
-   document.getElementsByClassName("bg-box").style.backgroundColor = "red";
-}, false
-);
-
-
-
-
-
 
 var newPara = document.createElement("p");
 
