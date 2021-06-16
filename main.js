@@ -1,22 +1,36 @@
 
+var change_color = document.querySelectorAll('div');
+
+function changeColor() {
+    for (i = 0; i < change_color.length; i++) {
+        change_color[i].children[0].classList.toggle('bgcolor');
+    }
+}
+
+
+for (i = 0; i < change_color.length; i++) {
+    change_color[i].addEventListener('mouseenter', changeColor);
+    change_color[i].addEventListener('mouseleave', changeColor);
+}
+
 
 var newPara = document.createElement("p");
 
-document.getElementById('box1').addEventListener("click"
+document.getElementsByClassName('box1')[0].addEventListener("click"
 ,function() {
     newPara.innerHTML = "Oooh - so close, but no cigar";
     document.getElementById('new1').appendChild(newPara);
 }, false
 );
 
-document.getElementById('box2').addEventListener("click"
+document.getElementsByClassName('box2')[0].addEventListener("click"
 , function () {
     newPara.innerHTML = "DING DING DING - We have a winner";
     document.getElementById('new2').appendChild(newPara);
 }, false
 );
 
-document.getElementById('box3').addEventListener("click"
+document.getElementsByClassName('box3')[0].addEventListener("click"
 , function () {
     newPara.innerHTML = "Oops, butter luck next time";
     document.getElementById('new3').appendChild(newPara);
