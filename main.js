@@ -3,7 +3,7 @@ var change_color = document.getElementsByClassName('bg-box')
 
 function changeColor() {
     for (i = 0; i < change_color.length; i++) {
-        change_color[i].children[0].classList.toggle('bgcolor');
+        change_color[i].classList.toggle('bgcolor');
     }
 }
 
