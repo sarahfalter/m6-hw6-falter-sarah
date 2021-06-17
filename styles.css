@@ -35,7 +35,7 @@ h2 {
     justify-content: space-around;
 }
 
-.box1, .box2, .box3 {
+.box1, .box2, .box3, .bg-box {
     color:rgb(120, 11, 209);
     font-size: 2rem;
     text-align: center;

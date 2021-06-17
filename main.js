@@ -1,5 +1,5 @@
 
-var change_color = document.querySelectorAll('div');
+var change_color = document.getElementsByClassName('bg-box')
 
 function changeColor() {
     for (i = 0; i < change_color.length; i++) {
